@@ -39,8 +39,6 @@ def main(x1,y1,t, ox1=40, oy1=40):
     print([round(i,5) for i in relv])
     return True
 a = sys.argv[1:]
-print(a)
-print(np.pi)
 try:
     main(float(a[0]),float(a[1]),float(a[2]))
 except IndexError:
